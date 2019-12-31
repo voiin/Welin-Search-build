@@ -8,6 +8,6 @@ git clone https://github.com/voiin/Welin-Search-build.git
 cd Welin-Search-build
 docker build -t welin-search .
 # 容器运行
-docker run -d --name searx -p 8888:8888 -e IMAGE_PROXY=True searx
+docker run -d --name searx -p 8888:8888 -e IMAGE_PROXY=True welin-search
 # 访问 http://localhost:8888
 ```
