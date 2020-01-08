@@ -1,6 +1,6 @@
 # 构建Welin-Search
 ## docker
-### 在已部署docker环境下上你可以这样部署
+### 在已部署docker环境下你可以这样部署
 ```bash
 # 拉取仓库
 git clone https://github.com/voiin/Welin-Search-build.git
